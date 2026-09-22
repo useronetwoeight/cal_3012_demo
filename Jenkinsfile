@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        maven 'meiven'
+    }
         stages {
         stage ('check'){
             steps{
